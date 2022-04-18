@@ -428,6 +428,7 @@ body{
               height: 90vh;
               background-position: center;
               overflow-y: hidden;
+              margin-top: 130px;
               }
               .Accessories .text1 {
                 display: flex;
