@@ -73,11 +73,7 @@ body{
 
 @media(max-width:600px){
   .navbar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-     background-color: transparent;
-    height: 100vh;
+     height: 100vh;
     position: fixed;
     /* display: none; */
     transform: translate(-50%,-50%);
@@ -120,6 +116,7 @@ body{
   position: relative;
   background-position: center;
   gap: 20px;
+  /* background-attachment: fixed; */
 
 }
 .header .text {
@@ -132,7 +129,7 @@ body{
   position: sticky;
   top: 20%;
   left: 50%;
-  padding: 10% 0px 0px 0px;
+   margin: 10% 0px 0px 0px;
   gap: 10px;
 }
 .header .text h1 {
@@ -220,7 +217,7 @@ background-color: crimson;
      background-position:center;
      background-attachment: fixed;
      background-repeat: no-repeat;
-      background-size: contain;
+      background-size: cover;
     
    }
   .header .text {
@@ -268,7 +265,7 @@ background-color: crimson;
   background-size: cover;
   width: 100%;
   height: 100vh;
-  background-position: center;
+  /* background-position: top; */
   overflow-y: hidden;
 }
 .modelX .text1 {
@@ -282,7 +279,7 @@ background-color: crimson;
 .modelX .text h1 {
   font-size: 30px;
   color: #171a20;
-  position: sticky;
+  /* -webkit-mask-position-x: sticky; */
 }
 .modelX .text p {
   font-size: 18px;
@@ -335,7 +332,9 @@ background-color: crimson;
     .modelX{
       background-image: url(../ASSETES/modelX-min.jpg);
        height: 100vh;
+       background-position: center;
      }
+
     .modelX .text1 {
       
      margin: 0px 0px 0px 0px;
@@ -829,7 +828,7 @@ background-color: crimson;
               background-position: center;
               overflow-y: hidden;
               margin-top: 130px;
-              gap: 100px;
+              gap: 50px;
               }
               .Accessories .text1 {
                 display: flex;
